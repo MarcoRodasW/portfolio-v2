@@ -1,7 +1,10 @@
+import ThemeToggler from "@/components/shared/themeToggler";
+
 export default function Home() {
 	return (
-		<div className="grid place-content-center min-h-screen gap-y-5">
+		<div className="flex flex-col">
 			<h1 className="text-2xl">Hello world from Daysi UI</h1>
+			<ThemeToggler />
 		</div>
 	);
 }
